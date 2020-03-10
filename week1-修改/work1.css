@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    width:980px;
+    height:1386px;
+    margin: auto;
+}
+li{
+    list-style: none;
+    margin-right: 30px;word-wrap: break-word;
+}
+#container{
+    width:892px;
+    margin:0 46 45px;
+
+}
+.part1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.img{
+    width:641px;
+    height:301px;
+    position: relative;
+    background: url(img/1.png) no-repeat;
+    background-size: 100%;
+    float:left;
+}
+.img:before{
+    position: absolute;
+    left:0px;
+    content:"";
+    background-color: #385644;
+    opacity: 0.5;
+    z-index: 1;
+    width: 191px;
+    height: 100%;
+}
+.img:after{
+    position: absolute;
+    right:0px;
+    content:"";
+    background-color:#e5b7b7;
+    opacity: 0.5;
+    z-index: 1;
+    width: 191px;
+    height: 100%;
+}
+.part1-test{
+    margin-left: 48px;
+    text-align: left;
+    width: 200px;
+    height:300px;
+}
+.title-top{
+    width:203px;
+    border-top: solid 2px #cc8091;
+}
+.part2{
+    width:691px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.part2 div{
+    padding:5px;
+}
+.part2 h1{
+    font-size: 160x;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.part3{
+    margin-top: 30px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    justify-content: space-between;
+}
+.part3-left h1::first-letter{
+    font-family:"STHeiti";
+    font-size:72px;
+    color:#f5e327;
+    font-style: italic;
+    font-weight: bold;
+}
+.part3-left .suojin::first-letter{/*单独设置网字样式*/
+    font-family:"Microsoft YaHei";
+    font-size:70px;
+    color:#f5e327;
+    position: absolute;
+    float:left;
+}
+.part3-left .suojin{
+    font-size: 12px;
+    color:#767777;
+    font-family:"STsong";
+    line-height:1.333;    
+    word-break: break-all;
+    z-index: 42;
+}
+.part3-left .suojin1{
+    font-size: 12px;
+    color:#767777;
+    font-family:"STsong";
+    line-height:1.333;
+    text-indent: 2em;
+    word-break: break-all;
+    z-index: 42;
+}
+.right-part3-img{
+    background-image:url(img/3.png);
+    width:458px;
+    height:275px;
+    background-size:458px 275px;
+    margin:40px 20px 10px;
+}
+.ins{position: relative;
+    background-color:rgb(4,0,0);
+    width:458px;
+    height:61px;
+    top:215px;
+    opacity: 0.4;
+}
+ .right .last{
+    margin: 20px;
+    position: relative;
+    width:458px;
+    height:318px;
+    background-color:peachpuff;
+}
+.right .last .last-list{
+    padding: 10px;
+}
+.triangle {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid #10456b;
+    width:0;
+    height:0;
+    bottom: -3px;
+    float: left;
+    right:3px;
+}
+.right .last .orangered{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:260px;
+    height:160px;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.right .last .arts{
+   position: absolute;
+   padding: 10px;right:0;
+   width:180px;
+}

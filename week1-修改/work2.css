@@ -1,0 +1,411 @@
+body{
+    margin:0 auto;
+}
+body,div,ul,li,a,p,h1,h2,h3,h4,h5,h6,dl,dd,dt,input,form,textarea{
+	margin:0;
+	padding:0;
+	font-family:Microsoft YaHei,'宋体' , Tahoma, Helvetica, Arial, \5b8b\4f53 , sans-serif;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	border: none;
+	display: block;
+}
+/* 清除浮动 */
+.clearfloat:before,.clearfloat:after{
+	display: table;
+	content: "";
+}
+.clearfloat:after{
+	clear: both;
+}
+.clearfloat{
+	zoom:1;
+}
+.public-header{
+    height:60px;
+    background-color: #ffffff;
+    width:100%;
+}
+.public-header .header-logo{
+    float:left;
+    margin-top: 14px;
+    margin-left: 60px;
+    width:110px;
+    height:30px;
+    background-image: url(img/logo.png);
+}
+.public-header .header-logo a{
+    height:30px; 
+}
+.public-header .header-nav{
+    float:right;
+    font-size: 16px;
+    margin-left: -40px;
+}
+.public-header .header-nav .item{
+    float:left;
+    margin-top:15px ;
+    margin-right:40px;
+}
+.public-header .header-nav .item:last-child{
+    margin-left: -20px;
+}
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    
+}
+
+.banner .banner-bg{
+    height:690px;
+    overflow: hidden;
+}
+.banner .banner-bg img{
+    margin: 0 auto;
+}
+.banner .banner-text{
+    position: absolute;
+    top:270px;
+    left:120px;
+}
+.banner .banner-text h1{
+    font-size: 40px;
+    color:#fff ;
+}
+.banner .banner-text p{
+    font-size: 20px;
+    width:280px;
+    color:#fff;
+    line-height: 1.5;
+}
+.banner .banner-text input{
+    margin-top: 66px;
+    width:330px;
+    height:60px;
+    font-size: 30px;
+    background-color: #e74f4d;
+    color: #ffffff;
+    text-align: center;
+}
+.index-panel{
+    height:250px;
+    background-color: #ffffff;
+}
+.index-panel .panel-part{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:250px;
+}
+.index-panel .panel-part img{
+    margin: 0 auto;
+}
+.index-panel .panel-part  p{
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 1.2;
+    width: 200px;
+    font-family: "SimHei";
+    text-align: center;
+}
+.index-panel .panel-part .panel-img:before{
+    background-color: #606060;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    top: 860px;
+    height:60px;
+    width: 1px;
+}
+.index-panel2{
+    height:360px;
+    background-color: #ededed;
+}
+.index-panel2 img{
+    top: 80px;
+    margin: auto;
+   
+}
+.index-panel2 h1{
+   margin-top: 50px;
+    font-size: 45px;
+    font-family: "SimHei";
+    color: rgba(50, 51, 51, 0.502);
+    line-height: 1.056;
+    text-align: center;
+}
+.panel3-bg {
+    height: 330px;
+    overflow: hidden;
+}
+.panel3-bg img{
+    margin:0 auto;
+}
+.panel3-text{
+    position: absolute;
+    top:1370px;
+    margin-top: 50px;
+    left:120px;
+    color: #ffffff;
+    text-align: center;
+}
+.panel3-text p{
+    margin-top: 40px;
+}
+.panel3-text input{
+    margin-top: 50px;;
+    width:236px;
+    color:#606060;
+    margin-right:25px;
+    padding:5px;
+}
+#provinces option:hover #provinces{
+    background-color: #e4e3e5;
+}
+#provinces option:hover{
+    background-color: #be4e48;
+}
+.index-panel4{
+    background-color:#f7f7f7;
+    height:606px;
+    display: flex;
+    flex-direction:nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.panel4-part{
+    width: 220px;
+    text-align: center;
+}
+.panel4-part p:nth-child(1){
+    margin-top: 8px;
+    font-size: 8px;
+    color:#606060;
+    font-weight: lighter;
+}
+.panel4-part p:nth-child(2){
+    font-size: 18px;
+    color: #000000;
+}
+.panel4-icon-part{
+    width:220px;
+    text-align: center;
+}
+.panel4-icon-part span{
+    font-size: 24px;
+    color:#32353e;
+    font-weight: bold;
+    letter-spacing: 25px;
+    text-align: center;
+}
+.index-panel5{
+    height:576px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.index-panel5-bg{
+    overflow: hidden;
+    width:830px;
+    height:565px;
+    background: url(img/index5.png)no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.index-panel5-bg p:first-child{
+    font-size: 49.473px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+    line-height: 1.528;
+}
+.index-panel5-bg h1{
+    font-size: 157.788px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+    line-height: 1.528;
+}
+.index-panel5-bg p:last-child{
+        font-size: 22px;
+        font-family: "Microsoft YaHei";
+        color: rgb(255, 255, 255);
+        line-height: 1.969;
+}
+.index-panel5-text:after{
+        content:"";
+        position:absolute;
+        top:2600px;
+        right:432px;
+        bottom:0;
+        border-bottom: 20px solid transparent;
+        border-top: 20px solid transparent;
+        border-right: 20px solid #fff;
+}
+.index-panel5-text{
+    top:50%;
+    margin-top:160px;  
+    text-align: center;
+}
+.index-panel5-text p{
+    margin: 36px 0 50px 0px;;
+    font-family: "SKsong";
+    font-size: 18px;
+    line-height: 1.5;
+    width:430px;
+}
+.index-panel6{
+    display:flex;
+    flex-wrap: nowrap;
+    height:520px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-around;
+    margin-top:-10px;
+}
+.panel6-part-1{
+    background-color: #e74f4d;
+    width:480px;
+    text-align: center;
+}  
+.panel6-part-2{
+    background-color: #ffffff;
+    width:480px;
+    text-align: center;
+    height: 520px;
+}  
+.panel6-part-2:after{
+    content:"";
+    position:absolute;
+    top:3100px;
+    left:830px;
+    bottom:0;
+    right:0;
+	border-bottom: 20px solid transparent;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #fff;
+}
+.index-list{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.index-list .index-list-top{
+    margin-top: 110px;
+    text-align: center;
+}
+.index-list-top p{
+    width: 425px;
+    font-size: 10px;
+    font-weight: lighter;
+    line-height: 1;
+    margin: 0 auto;
+    margin-top:40px;
+}
+.index-list-body{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.index-list-left h3{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.index-list-left p{
+    font-size: 10px;
+    font-weight:lighter ;
+    line-height: 1;
+    width: 300px;
+}
+.index-list-right{
+    width: 635px;
+    height:270px;
+}
+.index-list-right .list-box1{
+    background-color: #ededee;
+    padding-left:15px;
+    width:315px;
+    height: 40px;
+    border: 1px solid #FFF;
+    float:left;
+}
+.index-list-right .list-box2{
+    background-color: #ededee;
+    padding-left:15px;
+    width:635px;
+    height: 165px;
+    border: 1px solid #fff;
+    
+}
+.index-list-right .list-box3{
+    background-color: #ededee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:648px;
+    height: 40px;
+    border: 1px solid #fff;
+    
+}
+.public-footer{
+    height:410px;
+    background-color: #32353e;
+}
+.footer-container{
+    margin-top: 50px;
+    position: relative;
+    width:530px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}    
+.public-footer .footer-container h1{
+        font-size: 30px;
+        font-family: "SimSun";
+        color: rgb(255, 255, 255);
+        line-height: 1.5; 
+        text-align: center;
+        margin-top: 40px;
+}
+.public-footer .footer-container p{
+        font-size: 15px;
+        font-family: "SimSun";
+        color: rgb(255, 255, 255);
+        line-height: 1.5;
+        text-align: center;  
+}
+.public-footer .footer-container .icons {
+    position: relative;
+    height:124px;
+    margin-top: 40px;
+    
+}
+.public-footer .footer-container .icons .icon{
+    float: left;
+    padding-left: 25px;
+}
+.public-footer p{
+    font-size:10px ;
+    color:#fff;
+}
+
